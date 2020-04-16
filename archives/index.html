@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
 <meta property="og:site_name" content="青草的路">
 <meta property="og:description" content="路边的小草">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="四木子">
 <meta name="twitter:card" content="summary">
 
@@ -39,11 +39,11 @@
     sidebar: "",
     isHome : false,
     isPost : false,
-    lang   : 'en'
+    lang   : 'zh-CN'
   };
 </script>
 
-  <title>Archive | 青草的路</title>
+  <title>归档 | 青草的路</title>
   
 
 
@@ -83,7 +83,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -111,14 +111,29 @@
 
 <nav class="site-nav">
   <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
+        <li class="menu-item menu-item-主页">
 
-    <a href="/Jason.github.io/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/Jason.github.io/" rel="section"><i class="fa fa-home fa-fw"></i>主页</a>
 
   </li>
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-关于">
 
-    <a href="/Jason.github.io/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">1</span></a>
+    <a href="/Jason.github.io/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-标签">
+
+    <a href="/Jason.github.io/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-分类">
+
+    <a href="/Jason.github.io/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-档案">
+
+    <a href="/Jason.github.io/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>档案</a>
 
   </li>
   </ul>
@@ -151,13 +166,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 1 post. Keep on posting.</span>
+        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2020</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-04-16T21:46:12+08:00"
+              content="2020-04-16">
+          04-16
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/Jason.github.io/2020/04/16/circulate/" itemprop="url">
+            <span itemprop="name">六道轮回</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -173,6 +208,26 @@
       <div class="post-title">
           <a class="post-title-link" href="/Jason.github.io/2020/04/09/hello-world/" itemprop="url">
             <span itemprop="name">大鱼海棠</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-03-01T21:46:12+08:00"
+              content="2020-03-01">
+          03-01
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/Jason.github.io/2020/03/01/firewhole/" itemprop="url">
+            <span itemprop="name">杀死一只知更鸟观后感</span>
           </a>
       </div>
 
@@ -229,10 +284,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -249,11 +304,15 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/Jason.github.io/archives/">
-        
-          <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">posts</span>
+          <a href="/Jason.github.io/archives">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Jason.github.io/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
 </div>
@@ -292,7 +351,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">四木子</span>
 </div>
-  <div class="powered-by">Powered by <a href="/Jason.github.io/" class="theme-link">Nora</a>  <a href="/Jason.github.io/" class="theme-link"></a>
+  <div class="powered-by">由 <a href="/Jason.github.io/" class="theme-link">Nora</a>  <a href="/Jason.github.io/" class="theme-link"></a> 强力驱动
   </div>
 
         
